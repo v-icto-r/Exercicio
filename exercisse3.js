@@ -1,0 +1,10 @@
+function exercisse3(arr, item) {
+  for (let i = 0, len = arr.length; i < len; i += 1) {
+    if (arr[i] === item) {
+      arr.splice(i, 1);
+    }
+  }
+  return arr;
+}
+
+module.exports = exercisse3;
